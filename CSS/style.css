@@ -1,0 +1,44 @@
+h1{
+    color:green;
+}            
+body{
+    background-color:white;
+}
+div{
+    border:2px solid blue;
+    margin-top:100px;
+    margin-left:100px;
+    margin-right:100px;
+    margin-bottom:100px;
+    background-color:gold;
+    padding:25px;
+    padding-left:23px; 
+}
+table{
+    margin-left:200px;
+    border-collapse:collapse;
+    width:300px;
+}
+table,th,td{
+    border:1px solid black;
+}
+th{
+    background-color:greenyellow;
+    height:30px;
+    text-align:center;
+}
+td{
+    height:20px;
+    vertical-align:top;
+    text-align:left;
+    padding-left:10px;
+}
+tr:hover{
+    background-color: antiquewhite;
+}
+tr:nth-child(even){
+    background-color: aquamarine;
+}
+tr:nth-child(odd){
+    background-color: azure;
+}

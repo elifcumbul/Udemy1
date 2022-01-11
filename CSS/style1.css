@@ -1,0 +1,30 @@
+input[type = text], input[type = password]{
+    width:100%;
+    padding:5px;
+    border:1px solid green;
+    border-radius:3px;
+    border-bottom:3px;
+    color:blueviolet;
+    background-color: honeydew;
+}
+input[type = text]:focus, input[type = password]:focus{
+    background-color: coral;
+}
+
+.myClass{
+    color:darkcyan;
+    background-color: cornflowerblue;
+}
+
+h1,p{
+    text-align: center;
+}
+
+p.someClass{
+    color:darksalmon;
+    background-color: darkslategrey;
+}
+
+#email{
+    background-color: floralwhite;
+}
